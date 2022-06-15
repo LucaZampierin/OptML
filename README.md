@@ -6,4 +6,4 @@ This repository is organized as follow:
 - The Denoising Problem is in the file
 - The file ?? contains the code necessary for plotting the curve
 - The combination of AdaBelief and Madgrad is done in the file 
-- The folder Results contain the results data.
+- The folder results_data contains the data results.
