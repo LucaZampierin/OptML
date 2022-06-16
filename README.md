@@ -17,6 +17,7 @@ Parts of the code for Image Classification are adapted from pytorch examples (ht
 
 - The *plots* are available in the folder `plot`. In the name of the images, *default* is for the plot obtained with the defaut hyperparameters, and *tuned* is for the plot obtained with tuned hyperparameters.
 
+- `hyperparameter_tuning_cifar` and `hyperparameter_tuning_denoising` are the saved trials of the tuning phase of `OptML_image_classification.ipynb` and `OptML_denoising.ipynb`.
 
 ## Downloading of the data for Image Denoising
 
