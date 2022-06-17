@@ -9,13 +9,13 @@ Parts of the code for Image Classification are adapted from pytorch examples (ht
 
 ## Organization of the repository
 
-- The **Image Classification** problem is done in the notebook `OptML_image_classification.ipynb`. The explanations of the code are self-encapsulated in the notebook. Hence the notebook contains steps for the set-up of the environement and the loading af the data. Then we proceed to the training of the ResNet18 model [6] with the four optimizers using default parameters. We tune the hyperparameter and achieve the training with tuned hyperparameters. Finally, we plot the results. Futhermore, we try a combined version of AdaBelief and Madgrad.
+- The **Image Classification** problem is done in the notebook `OptML_image_classification.ipynb`. The explanations of the code are self-encapsulated in the notebook. Hence the notebook contains steps for the set-up of the environment and the loading of the data. Then we proceed to the training of the ResNet18 model [6] with the four optimizers using default parameters. We tune the hyperparameter and achieve the training with tuned hyperparameters. Finally, we plot the results. Furthermore, we try a combined version of AdaBelief and Madgrad.
 
-- The **Denoising Problem** is done in the notebook `OptML_denoising.ipynb`. The explanations of the code are self-encapsulated in the notebook. Hence the notebook contains steps for the set-up of the environement and the loading af the data. Then we proceed to the training of the UNet model [7,8] with the four optimizers using default parameters. We tune the hyperparameter and achieve the training with tuned hyperparameters. Finally, we plot the results.
+- The **Denoising Problem** is done in the notebook `OptML_denoising.ipynb`. The explanations of the code are self-encapsulated in the notebook. Hence the notebook contains steps for the set-up of the environment and the loading of the data. Then we proceed to the training of the UNet model [7,8] with the four optimizers using default parameters. We tune the hyperparameter and achieve the training with tuned hyperparameters. Finally, we plot the results.
 
 - The **results data** are available in the folder `results_data`. The format of the subfolders is the following: *[optimizer name]_[problem_name]*. *mix* stands for the combination of Madgrad and AdaBelief, *best* for the case with tuned hyperparameters, *cifar* is for Image Classification, *denoising* for Image Denoising, *acc* for the accuracy data and *loss* for the data of the loss. *episode_numer* stands for the number of the seed considered. In the subfolder `mix_cifar`, *T* represents the switching time between Madgrad and AdaBelief.
 
-- The **plots** are available in the folder `plot`. In the name of the images, *default* is for the plot obtained with the defaut hyperparameters, and *tuned* is for the plot obtained with tuned hyperparameters.
+- The **plots** are available in the folder `plot`. In the name of the images, *default* is for the plot obtained with the default hyperparameters, and *tuned* is for the plot obtained with tuned hyperparameters.
 
 - `hyperparameter_tuning_cifar` and `hyperparameter_tuning_denoising` are the saved trials of the tuning phase of `OptML_image_classification.ipynb` and `OptML_denoising.ipynb`.
 
