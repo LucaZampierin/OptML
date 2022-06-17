@@ -9,7 +9,7 @@ Parts of the code for Image Classification are adapted from pytorch examples (ht
 
 ## Organization of the repository
 
-- The **Image Classification** problem is done in the notebook `OptML_image_classification.ipynb`. The explanations of the code are self-encapsulated in the notebook. Hence the notebook contains steps for the set-up of the environement and the loading af the data. Then we proceed to the training of the ResNet18 model [6] with the four optimizers using default parameters. We tune the hyperparameter and achieve the training with tuned hyperparameters. Finally, we plot the results.
+- The **Image Classification** problem is done in the notebook `OptML_image_classification.ipynb`. The explanations of the code are self-encapsulated in the notebook. Hence the notebook contains steps for the set-up of the environement and the loading af the data. Then we proceed to the training of the ResNet18 model [6] with the four optimizers using default parameters. We tune the hyperparameter and achieve the training with tuned hyperparameters. Finally, we plot the results. Futhermore, we try a combined version of AdaBelief and Madgrad.
 
 - The **Denoising Problem** is done in the notebook `OptML_denoising.ipynb`. The explanations of the code are self-encapsulated in the notebook. Hence the notebook contains steps for the set-up of the environement and the loading af the data. Then we proceed to the training of the UNet model [7,8] with the four optimizers using default parameters. We tune the hyperparameter and achieve the training with tuned hyperparameters. Finally, we plot the results.
 
