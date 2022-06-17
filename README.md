@@ -15,7 +15,7 @@ Parts of the code for Image Classification are adapted from pytorch examples (ht
 
 - The **results data** are available in the folder `results_data`. The format of the subfolders is the following: *[optimizer name]_[problem_name]*. *mix* stands for the combination of Madgrad and AdaBelief, *best* for the case with tuned hyperparameters, *cifar* is for Image Classification, *denoising* for Image Denoising, *acc* for the accuracy data and *loss* for the data of the loss. *episode_numer* stands for the number of the seed considered. In the subfolder `mix_cifar`, *T* represents the switching time between Madgrad and AdaBelief.
 
-- The *plots* are available in the folder `plot`. In the name of the images, *default* is for the plot obtained with the defaut hyperparameters, and *tuned* is for the plot obtained with tuned hyperparameters.
+- The **plots** are available in the folder `plot`. In the name of the images, *default* is for the plot obtained with the defaut hyperparameters, and *tuned* is for the plot obtained with tuned hyperparameters.
 
 - `hyperparameter_tuning_cifar` and `hyperparameter_tuning_denoising` are the saved trials of the tuning phase of `OptML_image_classification.ipynb` and `OptML_denoising.ipynb`.
 
